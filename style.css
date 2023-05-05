@@ -1,0 +1,604 @@
+/* estraロゴ画像 */
+.header-logo {
+  width: 200px;
+  height: 40px;
+  margin-top: -10px;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(111, 110, 110);
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 70px;
+  padding: 0 30px;
+}
+
+.header-nav-list {
+  display: flex;
+
+}
+
+.header-nav-list-item:not(:last-child) {
+  margin-right: 30px;
+}
+
+/* main画像 */
+.firstview-img {
+  width: 580px;
+  display: block;
+  margin-right: 0;
+  margin-left: 330px;
+}
+
+/* divタグ */
+.firstview-container {
+  position: relative;
+}
+
+/* Commit */
+.main-msg {
+  position: absolute;
+  top: 130px;
+  left: 80px;
+  font-family: 'Indie Flower', cursive;
+  color: rgba(107, 10, 59, 0.844);
+  font-size: 50px;
+  font-weight: bold;
+  line-height: normal;
+}
+
+/* growth */
+.main-msg-sub {
+  color: rgb(37, 150, 150);
+}
+
+/* 全ての人の */
+.main-msg2 {
+  position: absolute;
+  top: 320px;
+  left: 80px;
+  font-family: 'Indie Flower', cursive;
+  color: rgba(107, 10, 59, 0.844);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* 成長 */
+.main-msg2-sub {
+  color: rgb(37, 150, 150);
+}
+
+/* Educaitional */
+.main-msg3 {
+  position: absolute;
+  top: 350px;
+  left: 80px;
+  color: rgb(111, 110, 110);
+  line-height: normal;
+}
+
+/* ---------------------------------- */
+/* News divタグ */
+.news {
+  width: fit-content;
+  margin: 0 auto;
+}
+
+/* News */
+.news-ttl-sub {
+  margin-top: 70px;
+  font-family: 'Indie Flower', cursive;
+  color: rgba(107, 10, 59, 0.844);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* 新着情報 */
+.news-ttl {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  color: rgb(111, 110, 110);
+  font-size: 30px;
+}
+
+/* ulタグ */
+.news-itm {
+  margin: 0 auto;
+  padding-top: 20px;
+  padding-bottom: 30px;
+  border-top: 2px solid rgb(111, 110, 110);
+  border-bottom: 2px solid rgb(111, 110, 110);
+}
+
+/* 2021/01/01… */
+.news-itm-li {
+  width: fit-content;
+  padding: 20px 10px;
+  list-style: none;
+  border-bottom: 1px solid rgb(111, 110, 110);
+}
+
+/* ニュース */
+.news-itm-li-sub {
+  display: inline-block;
+  width: 100px;
+  text-align: center;
+  border-radius: 99px;
+  background-color: rgba(107, 10, 59, 0.844);
+  padding: 3px;
+  margin: 0 20px;
+  color: aliceblue;
+}
+
+/* ---------------------------------- */
+/* About divタグ */
+.about {
+  background-color: rgba(231, 237, 237, 0.844);
+}
+
+/* About */
+.about-ttl-sub {
+  text-align: center;
+  margin-top: 90px;
+  padding-top: 50px;
+  font-family: 'Indie Flower', cursive;
+  color: rgba(107, 10, 59, 0.844);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* Technology × Coaching */
+.about-ttl {
+  text-align: center;
+  margin-top: 20px;
+  color: rgb(111, 110, 110);
+  font-size: 30px;
+}
+
+/* About2 divタグ */
+.about2 {
+  position: relative;
+  padding-bottom: 80px;
+  background-color: rgba(231, 237, 237, 0.844);
+}
+
+/* テキスト1 */
+.about-itm {
+  width: 500px;
+  padding-top: 30px;
+  padding-left: 50px;
+  line-height: 25px;
+  color: rgb(111, 110, 110);
+  font-size: 14px;
+}
+
+/* テキスト2 */
+.about-itm2 {
+  width: 500px;
+  padding-top: 20px;
+  padding-left: 50px;
+  line-height: 25px;
+  color: rgb(111, 110, 110);
+  font-size: 14px;
+}
+
+/* About画像 */
+.about-img {
+  position: absolute;
+  width: 300px;
+  top: 10%;
+  left: 60%;
+}
+
+/* ---------------------------------- */
+/* Service */
+.service-ttl-sub {
+  margin-top: 70px;
+  margin-left: 50px;
+  font-family: 'Indie Flower', cursive;
+  color: rgba(107, 10, 59, 0.844);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* サービス内容 */
+.service-ttl {
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-bottom: 30px;
+  color: rgb(111, 110, 110);
+  font-size: 30px;
+}
+
+/* Service divタグ */
+.service {
+  display: flex;
+}
+
+/* Service画像1 divタグ */
+/* .service-container1 {
+} */
+
+/* Service画像1 */
+.service-img1 {
+  position: absolute;
+  width: 120px;
+  margin-left: 190px;
+  margin-top: 50px;
+}
+
+/* テキスト1 */
+.service-itm1 {
+  width: 400px;
+  padding-top: 200px;
+  margin-left: 50px;
+  text-align: center;
+  color: aliceblue;
+  background-color: rgba(121, 15, 63, 0.922);
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* テキスト2 */
+.service-itm2 {
+  width: 360px;
+  padding-top: 20px;
+  padding-bottom: 73px;
+  padding-left: 40px;
+  margin-left: 50px;
+  color: aliceblue;
+  background-color: rgba(121, 15, 63, 0.922);
+  line-height: 25px;
+  font-size: 14px;
+}
+
+/* Service画像2 divタグ */
+.service-container2 {
+  display: flex;
+  flex-flow: column;
+}
+
+/* Service画像2 */
+.service-img2 {
+  position: absolute;
+  width: 120px;
+  margin-left: 10px;
+  margin-top: 50px;
+}
+
+/* テキスト3 */
+.service-itm3 {
+  width: 360px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  padding-right: 50px;
+  text-align: center;
+  color: aliceblue;
+  background-color: rgba(165, 22, 129, 0.922);
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* テキスト4 */
+.service-itm4 {
+  width: 340px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+  padding-right: 30px;
+  text-align: right;
+  color: aliceblue;
+  background-color: rgba(165, 22, 129, 0.922);
+  line-height: 25px;
+  font-size: 14px;
+}
+
+/* Service画像3 divタグ */
+/* .service-container3 {
+} */
+
+/* Service画像3 */
+.service-img3 {
+  position: absolute;
+  width: 120px;
+  margin-left: 10px;
+  margin-top: 50px;
+}
+
+/* テキスト5 */
+.service-itm5 {
+  width: 360px;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  padding-right: 50px;
+  text-align: center;
+  color: aliceblue;
+  background-color: rgba(155, 93, 124, 0.582);
+  font-weight: bold;
+  font-size: 18px;
+}
+
+/* テキスト6 */
+.service-itm6 {
+  width: 340px;
+  padding-bottom: 30px;
+  padding-left: 40px;
+  padding-right: 30px;
+  text-align: right;
+  color: aliceblue;
+  background-color: rgba(155, 93, 124, 0.582);
+  line-height: 25px;
+  font-size: 14px;
+}
+
+/* ---------------------------------- */
+/* Blog */
+.blog-ttl-sub {
+  margin-top: 70px;
+  padding-top: 60px;
+  padding-left: 50px;
+  font-family: 'Indie Flower', cursive;
+  color: rgba(107, 10, 59, 0.844);
+  font-size: 20px;
+  font-weight: bold;
+  background-color: rgba(231, 237, 237, 0.844);
+}
+
+/* ブログ */
+.blog-ttl {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  padding-left: 50px;
+  color: rgb(111, 110, 110);
+  font-size: 30px;
+  background-color: rgba(231, 237, 237, 0.844);
+}
+
+/* Blog divタグ */
+.blog {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 30px;
+  background-color: rgba(231, 237, 237, 0.844);
+}
+
+/* 画像幅 divタグ */
+.practice-card {
+  width: 260px;
+  margin-left: 50px;
+  border-radius: 20px;
+  background-color: white;
+}
+
+/* 画像大きさ */
+.card-img img {
+  width: 100%;
+  border-radius: 20px 20px 0 0;
+}
+
+/* divタグ */
+.card-img {
+  position: relative;
+}
+
+/* card-Blog */
+.card-cat {
+  display: inline-block;
+  position: absolute;
+  padding: 10px 15px;
+  border-radius: 20px 0 0 0;
+  background: rgba(107, 10, 59, 0.844);
+  margin-bottom: 15px;
+  color: #fff;
+  font-size: 14px;
+}
+
+/* テキスト位置 */
+.card-content {
+  padding: 15px 15px;
+}
+
+/* テキスト */
+.card-ttl {
+  font-size: 14px;
+  margin-top: 10px;
+  margin-bottom: 30px;
+  line-height: 25px;
+  color: rgb(111, 110, 110);
+  font-weight: bold;
+}
+
+/* #COACHTECK */
+.card-tag {
+  display: inline-block;
+  margin-bottom: 20px;
+  text-align: right;
+  margin-left: 25px;
+  color: rgb(111, 110, 110);
+  font-size: 14px;
+}
+
+/* 日付 */
+.card-date {
+  display: inline-block;
+  margin-bottom: 20px;
+  text-align: left;
+  color: rgb(111, 110, 110);
+  font-size: 14px;
+}
+
+/* Blog divタグ2 */
+.blog2 {
+  padding-top: 20px;
+  padding-bottom: 30px;
+  background-color: rgba(231, 237, 237, 0.844);
+}
+
+/* Blogボタン */
+.blog-btn {
+  display: block;
+  width: 120px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+  color: rgba(107, 10, 59, 0.844);
+  font-size: 14px;
+  font-weight: bold;
+  text-decoration: none;
+  border: 2px solid rgba(107, 10, 59, 0.844);
+  background: white;
+  border-radius: 30px;
+}
+
+/* ---------------------------------- */
+/* Company divタグ */
+.company {
+  width: fit-content;
+  /* margin: 0 auto; */
+}
+/* Company */
+.company-ttl-sub {
+  margin-top: 70px;
+  margin-left: 160px;
+  font-family: 'Indie Flower', cursive;
+  color: rgba(107, 10, 59, 0.844);
+  font-size: 20px;
+  font-weight: bold;
+}
+
+/* 会社概要 */
+.company-ttl {
+  margin-top: 10px;
+  margin-left: 160px;
+  margin-bottom: 30px;
+  color: rgb(111, 110, 110);
+  font-size: 30px;
+}
+
+/* table divタグ */
+.company-itm {
+  margin: 50px 160px;
+}
+
+/* thリスト */
+.company-itm-li {
+  width: 150px;
+  font-weight: bold;
+  color: rgb(111, 110, 110);
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 10px;
+  text-align: left;
+  border: 1px solid rgb(111, 110, 110);
+  background-color: rgba(231, 237, 237, 0.844);
+}
+
+/* tdリスト */
+.company-itm-li2 {
+  width: 450px;
+  padding-left: 10px;
+  color: rgb(111, 110, 110);
+  border: 1px solid rgb(111, 110, 110);
+
+}
+
+/* 画像 divタグ */
+.company-img {
+  width: fit-content;
+  display: flex;
+  position: relative;
+}
+
+/* 採用画像 */
+.company-img-recruit {
+  width: 500px;
+}
+
+/* 採用テキスト */
+.company-txt1 {
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  transform: translate(-50%, -50%);
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+/* インタビュー画像 */
+.company-img-interview {
+  width: 500px;
+}
+
+/* インタビューテキスト */
+.company-txt2 {
+  position: absolute;
+  top: 50%;
+  left: 75%;
+  transform: translate(-50%, -50%);
+  color: aliceblue;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+/* お問い合わせ divタグ */
+.company-contact {
+  margin-bottom: 70px;
+}
+
+/* お問い合わせテキスト */
+.company-contact-txt {
+  position: relative;
+  margin-top: 60px;
+  text-align: center;
+  color: rgb(111, 110, 110);
+  font-size: 16px;
+}
+
+/* 疑似要素縦線 */
+.company-contact-txt::after {
+  content: '';
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 50px;
+  bottom: 0;
+  width: 2px;
+  height: 30px;
+  margin: auto;
+  background-color: rgba(107, 10, 59, 0.844);
+}
+
+/* お問い合わせ */
+.contact-btn {
+  display: block;
+  width: 250px;
+  padding: 28px 0;
+  color: #fff;
+  font-size: 14px;
+  border-radius: 35px;
+  background: linear-gradient(90deg, #e80598, #a3015a);
+  text-align: center;
+  box-shadow: 0 10px 0 rgba(107, 10, 59, 0.844);
+  margin: 80px auto 0;
+}
+
+/* ---------------------------------- */
+/* fotter divタグ */
+.fotter-copyright {
+  display: flex;
+  background-color: rgba(231, 237, 237, 0.844);
+  }
+
+/* copyright */
+.copyright {
+  color: rgb(111, 110, 110);
+  margin-left: 370px;
+  font-size: 12px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
