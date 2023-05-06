@@ -27,24 +27,23 @@ a {
   margin-right: 30px;
 }
 
-/* main画像 */
-.firstview-img {
-  width: 580px;
-  display: block;
-  margin-right: 0;
-  margin-left: 330px;
-}
-
 /* divタグ */
 .firstview-container {
   position: relative;
+}
+
+/* main画像 */
+.firstview-img {
+  width: 600px;
+  display: block;
+  margin: 0 0 0 auto;
 }
 
 /* Commit */
 .main-msg {
   position: absolute;
   top: 130px;
-  left: 80px;
+  left: 180px;
   font-family: 'Indie Flower', cursive;
   color: rgba(107, 10, 59, 0.844);
   font-size: 50px;
@@ -61,7 +60,7 @@ a {
 .main-msg2 {
   position: absolute;
   top: 320px;
-  left: 80px;
+  left: 180px;
   font-family: 'Indie Flower', cursive;
   color: rgba(107, 10, 59, 0.844);
   font-size: 20px;
@@ -77,7 +76,7 @@ a {
 .main-msg3 {
   position: absolute;
   top: 350px;
-  left: 80px;
+  left: 180px;
   color: rgb(111, 110, 110);
   line-height: normal;
 }
