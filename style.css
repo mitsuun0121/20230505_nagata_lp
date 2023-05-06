@@ -36,6 +36,7 @@ a {
 .firstview-img {
   width: 600px;
   display: block;
+  text-align: right;
   margin: 0 0 0 auto;
 }
 
@@ -170,7 +171,7 @@ a {
 .about-itm {
   width: 500px;
   padding-top: 30px;
-  padding-left: 50px;
+  padding-left: 200px;
   line-height: 25px;
   color: rgb(111, 110, 110);
   font-size: 14px;
@@ -180,7 +181,7 @@ a {
 .about-itm2 {
   width: 500px;
   padding-top: 20px;
-  padding-left: 50px;
+  padding-left: 200px;
   line-height: 25px;
   color: rgb(111, 110, 110);
   font-size: 14px;
@@ -195,10 +196,20 @@ a {
 }
 
 /* ---------------------------------- */
+/* Service divタグ */
+.service {
+  display: grid;
+  grid-template-rows: 200px 250px 250px;
+  grid-template-columns: 1fr 1fr;
+}
+
 /* Service */
 .service-ttl-sub {
-  margin-top: 70px;
-  margin-left: 50px;
+  grid-column: 1/2;
+  grid-row: 1/2;
+  margin-top: 90px;
+  margin-bottom: 10px;
+  margin-left: 280px;
   font-family: 'Indie Flower', cursive;
   color: rgba(107, 10, 59, 0.844);
   font-size: 20px;
@@ -207,35 +218,38 @@ a {
 
 /* サービス内容 */
 .service-ttl {
-  margin-top: 10px;
-  margin-left: 50px;
+  grid-column: 1/4;
+  grid-row: 1/2;
+  margin-top: 120px;
   margin-bottom: 30px;
+  margin-left: 280px;
   color: rgb(111, 110, 110);
   font-size: 30px;
 }
 
-/* Service divタグ */
-.service {
-  display: flex;
-}
-
 /* Service画像1 divタグ */
-/* .service-container1 {
-} */
+.service-container1 {
+  grid-column: 1/2;
+  grid-row: 2/4;
+  display: block;
+  margin-left: 120px;
+  position: relative;
+}
 
 /* Service画像1 */
 .service-img1 {
   position: absolute;
   width: 120px;
-  margin-left: 190px;
-  margin-top: 50px;
+  margin-left: 350px;
+  margin-top: 40px;
 }
 
-/* テキスト1 */
+/* 教育事業1 */
 .service-itm1 {
-  width: 400px;
-  padding-top: 200px;
-  margin-left: 50px;
+  width: 470px;
+  margin-left: 170px;
+  padding-top: 180px;
+  padding-bottom: 50px;
   text-align: center;
   color: aliceblue;
   background-color: rgba(121, 15, 63, 0.922);
@@ -243,13 +257,14 @@ a {
   font-size: 18px;
 }
 
-/* テキスト2 */
+/* サンプルテキスト1 */
 .service-itm2 {
-  width: 360px;
+  width: 450px;
+  margin-left: 170px;
+  padding-left: 20px;
   padding-top: 20px;
-  padding-bottom: 73px;
-  padding-left: 40px;
-  margin-left: 50px;
+  padding-bottom: 150px;
+  text-align: left;
   color: aliceblue;
   background-color: rgba(121, 15, 63, 0.922);
   line-height: 25px;
@@ -258,8 +273,9 @@ a {
 
 /* Service画像2 divタグ */
 .service-container2 {
-  display: flex;
-  flex-flow: column;
+  grid-column: 2/3;
+  grid-row: 2/3;
+  display: block;
 }
 
 /* Service画像2 */
@@ -270,11 +286,11 @@ a {
   margin-top: 50px;
 }
 
-/* テキスト3 */
+/* 教育事業2 */
 .service-itm3 {
   width: 360px;
-  padding-top: 50px;
-  padding-bottom: 20px;
+  padding-top: 80px;
+  padding-bottom: 40px;
   padding-right: 50px;
   text-align: center;
   color: aliceblue;
@@ -283,10 +299,10 @@ a {
   font-size: 18px;
 }
 
-/* テキスト4 */
+/* サンプルテキスト2 */
 .service-itm4 {
   width: 340px;
-  padding-bottom: 30px;
+  padding-bottom: 38px;
   padding-left: 40px;
   padding-right: 30px;
   text-align: right;
@@ -297,8 +313,12 @@ a {
 }
 
 /* Service画像3 divタグ */
-/* .service-container3 {
-} */
+.service-container3 {
+  grid-column: 2/3;
+  grid-row: 3/4;
+  display: block;
+  margin-bottom: 50px;
+}
 
 /* Service画像3 */
 .service-img3 {
@@ -308,11 +328,11 @@ a {
   margin-top: 50px;
 }
 
-/* テキスト5 */
+/* 教育事業3 */
 .service-itm5 {
   width: 360px;
-  padding-top: 50px;
-  padding-bottom: 20px;
+  padding-top: 80px;
+  padding-bottom: 40px;
   padding-right: 50px;
   text-align: center;
   color: aliceblue;
@@ -321,7 +341,7 @@ a {
   font-size: 18px;
 }
 
-/* テキスト6 */
+/* サンプルテキスト3 */
 .service-itm6 {
   width: 340px;
   padding-bottom: 30px;
@@ -335,32 +355,41 @@ a {
 }
 
 /* ---------------------------------- */
+
+/* Blog divタグ */
+.blog {
+  background-color: rgba(231, 237, 237, 0.844);
+}
+
 /* Blog */
 .blog-ttl-sub {
+  text-align: center;
   margin-top: 70px;
   padding-top: 60px;
-  padding-left: 50px;
-  font-family: 'Indie Flower', cursive;
+  padding-right: 800px;
+  font-family: 'Indie Flower',
+    cursive;
   color: rgba(107, 10, 59, 0.844);
   font-size: 20px;
   font-weight: bold;
-  background-color: rgba(231, 237, 237, 0.844);
 }
 
 /* ブログ */
 .blog-ttl {
+  text-align: center;
   padding-top: 10px;
   padding-bottom: 30px;
-  padding-left: 50px;
+  padding-right: 750px;
   color: rgb(111, 110, 110);
   font-size: 30px;
   background-color: rgba(231, 237, 237, 0.844);
 }
 
-/* Blog divタグ */
-.blog {
+/* Practice divタグ */
+.practice {
   display: flex;
-  justify-content: space-between;
+  margin: 0 auto;
+  justify-content: center;
   padding-bottom: 30px;
   background-color: rgba(231, 237, 237, 0.844);
 }
@@ -416,7 +445,7 @@ a {
   display: inline-block;
   margin-bottom: 20px;
   text-align: right;
-  margin-left: 25px;
+  margin-left: 20px;
   color: rgb(111, 110, 110);
   font-size: 14px;
 }
@@ -456,13 +485,13 @@ a {
 /* ---------------------------------- */
 /* Company divタグ */
 .company {
-  width: fit-content;
-  /* margin: 0 auto; */
+  width: 600px;
+  margin: 0 auto;
 }
+
 /* Company */
 .company-ttl-sub {
   margin-top: 70px;
-  margin-left: 160px;
   font-family: 'Indie Flower', cursive;
   color: rgba(107, 10, 59, 0.844);
   font-size: 20px;
@@ -472,7 +501,6 @@ a {
 /* 会社概要 */
 .company-ttl {
   margin-top: 10px;
-  margin-left: 160px;
   margin-bottom: 30px;
   color: rgb(111, 110, 110);
   font-size: 30px;
@@ -480,7 +508,7 @@ a {
 
 /* table divタグ */
 .company-itm {
-  margin: 50px 160px;
+  margin: auto;
 }
 
 /* thリスト */
@@ -507,14 +535,15 @@ a {
 
 /* 画像 divタグ */
 .company-img {
-  width: fit-content;
   display: flex;
   position: relative;
+  margin-top: 80px;
+  margin-left: 0;
 }
 
 /* 採用画像 */
 .company-img-recruit {
-  width: 500px;
+  width: 50%;
 }
 
 /* 採用テキスト */
@@ -530,7 +559,7 @@ a {
 
 /* インタビュー画像 */
 .company-img-interview {
-  width: 500px;
+  width: 50%;
 }
 
 /* インタビューテキスト */
@@ -589,14 +618,13 @@ a {
 /* ---------------------------------- */
 /* fotter divタグ */
 .fotter-copyright {
-  display: flex;
   background-color: rgba(231, 237, 237, 0.844);
-  }
+}
 
 /* copyright */
 .copyright {
   color: rgb(111, 110, 110);
-  margin-left: 370px;
+  text-align: center;
   font-size: 12px;
   padding-top: 20px;
   padding-bottom: 20px;
